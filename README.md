@@ -15,4 +15,9 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 
 <h2>Screenshots</h2>
 
+<p>
+<img src= ""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src= ""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" /> 
+</p>
+
 <h2>outcomes</h2>
