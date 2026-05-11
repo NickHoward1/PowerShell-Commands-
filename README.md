@@ -17,7 +17,7 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 
 <b>Get-Content</b> <b>Example:</b> Get-Content hosts.txt<br>
 <b>ForEach-Object: </b> <b>Example:</b> $hosts | ForEach-Object `{write-host $_ -backgroundColour white -foregroundcolour black}` <b>Example:</b> $hosts | ForEach-Object `{Write-Host "Hostname: $($_)" -BackgroundColor white -foreground black}`<br>
-<b>Out-file</b> <b>Example:</b> "My name is nick" | out-file test.txt -Append 
+<b>Out-file</b> <b>Example:</b> "My name is nick" | out-file test.txt -Append <b>Example:</b> $hosts | ForEach-Object `{"Hostname: $($_)" | Out-file newfile.txt -Append}`
 
 
 <p>
@@ -27,4 +27,4 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 
 
 
-<h2>outcomes</h2>
+<h2>Outcomes</h2>
