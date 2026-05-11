@@ -17,7 +17,7 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 
 <p>
 <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/070bebce0cbfa9569d3bf669a0951b50c75b40f1/Screenshot%202026-05-11%20at%2011.46.55.png" width="300" height="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src= ""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" /> 
+<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/3c5a3127ddf7b0e6338aded33c153a4eae5ad522/Screenshot%202026-05-11%20at%2012.50.02.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" /> 
 </p>
 
 <h2>outcomes</h2>
