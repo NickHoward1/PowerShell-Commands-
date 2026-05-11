@@ -16,7 +16,7 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 <h2>Screenshots</h2>
 
 <b>Get-Content</b> <b>Example:</b> Get-Content hosts.txt
-<b>ForEach-Object</b> <b>Example:</b> $hosts | ForEach-Object { write-host $_ -backgroundColour white -foregroundcolour black } <b>Example:</b> $hosts | ForEach-Object { Write-Host "Hostname: $($_)" -BackgroundColor white -foreground black}
+<b>ForEach-Object</b> <b>Example:</b> $hosts | ForEach-Object {write-host $_ -backgroundColour white -foregroundcolour black} <b>Example:</b> $hosts | ForEach-Object {Write-Host "Hostname: $($_)" -BackgroundColor white -foreground black}
 <b>Out-file</b> <b>Example:</b> "My name is nick" | out-file test.txt -Append 
 
 
