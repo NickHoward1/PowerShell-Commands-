@@ -17,7 +17,7 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 
 <b>Get-Content</b> <b>Example:</b> Get-Content hosts.txt<br>
 
-<b>ForEach-Object: </b> <b>Example:</b> $hosts | ForEach-Object `{write-host $_ -backgroundColour white -foregroundcolour black}` <b>Example:</b> $hosts | ForEach-Object `{Write-Host "Hostname: $($_)" -BackgroundColor white -foreground black}`<br>
+<b>ForEach-Object: </b> <b>Example:</b> $hosts | ForEach-Object `{write-host $_ -backgroundColour white -foregroundcolour black}`<b>Example:</b> $hosts | ForEach-Object `{Write-Host "Hostname: $($_)" -BackgroundColor white -foreground black}`<br>
 
 <b>Out-file:</b> <b>Example:</b> "My name is nick" | out-file test.txt -Append <b>Example:</b> $hosts | ForEach-Object `{"Hostname: $($_)" | Out-file newfile.txt -Append}`
 
@@ -29,6 +29,13 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 
 <b>Net Connection</b> <b>Example:</b> Test-NetConnection -ComputerName www.google.com <b>Example:</b> $hoststatus = Test-NetConnection -ComputerName www.google.com
 $hoststatus | select * <b>Example:</b>Test-NetConnection -ComputerName www.google.com -port 443
+
+<b>Example:</b> $hosts | ForEach-Object `{ </b>
+    Write-Host "Testing host: $($_)"</b>
+    Test-NetConnection -computerName $_ -Port 443</b>
+    Test-Netconnection -computerName $_ -Port 80</b>
+    Write-Host ""  
+}`
 
 <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/874a91777073c06aae48d79ec84a88a829601f69/Screenshot%202026-05-11%20at%2014.58.19.png" width="300" height="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src= ""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" />
