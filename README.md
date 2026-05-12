@@ -24,7 +24,12 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 
 <p>
 <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/a01fb060128f33ef4aa0e5496e2de8179ec54938/Screenshot%202026-05-11%20at%2012.56.39.png" width="300" height="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/5983ede86a5faf73188af4461bb1a9fb9512e7cc/Screenshot%202026-05-11%20at%2013.06.54.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/dc8febddd1f0a955ce7872b1cf8520e6a84ec7e3/Screenshot%202026-05-11%20at%2013.33.43.png" width="300" height="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/1dba6922505897c101fa455a77b98cf5f34e7848/Screenshot%202026-05-11%20at%2014.41.22.png" width="300" height="300"/> 
+ 
+<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/5983ede86a5faf73188af4461bb1a9fb9512e7cc/Screenshot%202026-05-11%20at%2013.06.54.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/dc8febddd1f0a955ce7872b1cf8520e6a84ec7e3/Screenshot%202026-05-11%20at%2013.33.43.png" width="300" height="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/1dba6922505897c101fa455a77b98cf5f34e7848/Screenshot%202026-05-11%20at%2014.41.22.png" width="300" height="300"/> 
 </p>
 
 <b>Net Connection</b> <b>Example:</b> Test-NetConnection -ComputerName www.google.com <b>Example:</b> $hoststatus = Test-NetConnection -ComputerName www.google.com
@@ -50,6 +55,9 @@ write-host ""
 
 
 <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/874a91777073c06aae48d79ec84a88a829601f69/Screenshot%202026-05-11%20at%2014.58.19.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/adca1c2a0574c15aa32e79453bf9945b6fbea7f2/Screenshot%202026-05-12%20at%2019.48.38.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" />
+
+<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/adca1c2a0574c15aa32e79453bf9945b6fbea7f2/Screenshot%202026-05-12%20at%2019.48.38.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+<img src= "" />
 
 <h2>Outcomes</h2>
