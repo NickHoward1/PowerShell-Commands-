@@ -37,12 +37,19 @@ $hoststatus | select * <b>Example:</b>Test-NetConnection -ComputerName www.googl
     Write-Host ""  
 }`
 
-<b>Convertto-json:</b>  <b>Example:</b $hosts | convertto-json <b>Example:</b $hosts[0] <b>Example:$hosts[0] | select*
+<b>Convertto-json:</b>  <b>Example:</b> $hosts | convertto-json <b>Example:</b> $hosts[0] <b>Example:</b> $hosts[0] | select*
 
-<b>Get-date:</b>  <b>Example:</b
+<b>Get-date:</b>  <b>Example:</b> 
+$hosts | ForEach-Object `{ 
+write-host "Testing Host: $($_)"
+"$(get-date): Testing hOST $($_)." | Out-File host_test.log -Append
+Test-NetConnection -ComputerName $_ -port 443
+Test-NetConnection -ComputerName $_ -port 80
+write-host ""
+}`
 
 
 <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/874a91777073c06aae48d79ec84a88a829601f69/Screenshot%202026-05-11%20at%2014.58.19.png" width="300" height="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src= ""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" />
+<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/adca1c2a0574c15aa32e79453bf9945b6fbea7f2/Screenshot%202026-05-12%20at%2019.48.38.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" />
 
 <h2>Outcomes</h2>
