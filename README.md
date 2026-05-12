@@ -37,6 +37,11 @@ $hoststatus | select * <b>Example:</b>Test-NetConnection -ComputerName www.googl
     Write-Host ""  
 }`
 
+<b>Convertto-json:</b>  <b>Example:</b $hosts | convertto-json <b>Example:</b $hosts[0] <b>Example:$hosts[0] | select*
+
+<b>Get-date:</b>  <b>Example:</b
+
+
 <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/874a91777073c06aae48d79ec84a88a829601f69/Screenshot%202026-05-11%20at%2014.58.19.png" width="300" height="300" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src= ""/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src= "" />
 
