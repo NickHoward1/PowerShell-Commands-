@@ -47,6 +47,16 @@ Test-NetConnection -ComputerName $_ -port 80
 write-host ""
 }`
 
+<b>Start-Sleep:</b>  <b>Example:</b> 
+$hosts | ForEach-Object `{
+write-host "sleeping for 2 seconds..." -BackgroundColor Black -ForegroundColor Blue
+start-sleep -seconds 2
+write-host "Testing Host: $($_)"
+"$(get-date): Testing host $($_)." | Out-File host_test.log -Append
+Test-NetConnection -ComputerName $_ -port 443
+write-host ""
+}`
+
 
 <img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/874a91777073c06aae48d79ec84a88a829601f69/Screenshot%202026-05-11%20at%2014.58.19.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src= "https://github.com/NickHoward1/PowerShell-Commands-/blob/adca1c2a0574c15aa32e79453bf9945b6fbea7f2/Screenshot%202026-05-12%20at%2019.48.38.png" width="300" height="300"/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
