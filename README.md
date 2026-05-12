@@ -30,10 +30,10 @@ To understand how PowerShell operates and applying basic commands in a windows 1
 <b>Net Connection</b> <b>Example:</b> Test-NetConnection -ComputerName www.google.com <b>Example:</b> $hoststatus = Test-NetConnection -ComputerName www.google.com
 $hoststatus | select * <b>Example:</b>Test-NetConnection -ComputerName www.google.com -port 443
 
-<b>Example:</b> $hosts | ForEach-Object `{ </b>
-    Write-Host "Testing host: $($_)"</b>
-    Test-NetConnection -computerName $_ -Port 443</b>
-    Test-Netconnection -computerName $_ -Port 80</b>
+<b>Example:</b> $hosts | ForEach-Object `{ 
+    Write-Host "Testing host: $($_)"
+    Test-NetConnection -computerName $_ -Port 443
+    Test-Netconnection -computerName $_ -Port 80
     Write-Host ""  
 }`
 
