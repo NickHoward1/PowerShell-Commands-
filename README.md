@@ -109,7 +109,7 @@ write-host ""
                          Scripting: Learn parameters/options rapidly.
 
 
-<h2>Real world scripting</h2>
+<h2>Real World Scripting</h2>
 
 Get-Content suspicious_ips.txt |
 ForEach-Object `{
